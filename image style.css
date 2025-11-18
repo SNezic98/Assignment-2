@@ -1,0 +1,66 @@
+
+.anonymous{
+    font-family: "anonymous-pro", monospace;
+font-weight: 400;
+font-style: normal;
+}
+
+  .face {
+    top:55%;
+    left:55%; 
+    transform: translate(-50%, -50%);
+    position: fixed;
+    white-space: pre; 
+    color: #0f0;
+    font-size: 1.2em;
+    align-content: center;
+  }
+
+     .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0f0;
+    padding-left: 45px;
+  }
+
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+     color: #0f0;
+     padding-left: 45px;
+    
+  }
+
+.left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  writing-mode: vertical-rl;   
+  text-orientation: upright;   
+  background-color: rgba(0, 0, 0, 0);
+  color: #0f0;
+}
+
+.right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  writing-mode: vertical-lr;   
+  text-orientation: upright;   
+  background-color: rgba(0, 0, 0, 0);
+  color: #0f0;
+}
+
+ .bottom-link {
+  color: #00ff00;         
+  text-decoration: underline; 
+}
+
+.bottom-link:hover {
+  color: white;          
+  text-decoration: none; 
+}

@@ -1,0 +1,90 @@
+
+
+
+
+.anonymous{
+    font-family: "anonymous-pro", monospace;
+font-weight: 400;
+font-style: normal;
+  }
+
+
+
+
+body {font-family: "anonymous-pro", monospace;
+font-weight: 400;
+font-style: normal;
+color: #00ff00;
+}
+
+.slashes {
+  font-family: "anonymous", monospace;
+  color: #00ff00;
+  letter-spacing: 8px;
+  white-space: nowrap;
+}
+
+.green-box{
+    border: 3px solid #00ff00;
+    padding: 20px; 
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.intro-page-title {
+    font-family: "anonymous-pro", monospace;
+    font-size: 48px;
+    color: #00ff00;
+    height: 50%;
+    width: 50%;
+}
+
+.centered {
+  position: absolute;       
+  top: 40%;                 
+  left: 50%;                
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.slashes-bottom{
+  font-family: "anonymous-pro", monospace;
+font-family: "anonymous", monospace;
+  color: #00ff00;
+  letter-spacing: 8px;
+  white-space: nowrap;
+  top: 60%;
+
+}
+
+ .container {
+    position: absolute;
+    bottom: 0;
+    height: 33%; 
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .text-block {
+    font-family: "anonymous", monospace;
+  color: #00ff00;
+  letter-spacing: 8px;
+  white-space: nowrap;
+    
+  }
+
+    .text-block a {
+    color: #00ff00;          
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 2px;
+  }
+
+  .text-block a:hover {
+    color: white;         
+    text-decoration: none; 
+  }

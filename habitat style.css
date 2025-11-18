@@ -1,0 +1,43 @@
+
+.anonymous{
+    font-family: "anonymous-pro", monospace;
+font-weight: 400;
+font-style: normal;
+  }
+
+
+
+body {font-family: "anonymous", monospace;
+font-weight: 400;
+font-style: normal;
+color: #00ff00;
+font-size: 25px;
+}
+
+
+.binary-block{
+    top:50%;
+    left:65%; 
+    transform: translate(-50%, -50%);
+    position: fixed; 
+    color: #0f0;
+    align-content: center;
+
+}
+
+ 
+
+
+.bottom-link {
+    font-size: 60px;
+    position: fixed;
+    bottom:0%;
+    left:0%;
+  color: #00ff00;         
+  text-decoration: underline; 
+}
+
+.bottom-link:hover {
+  color: white;          
+  text-decoration: none; 
+}
